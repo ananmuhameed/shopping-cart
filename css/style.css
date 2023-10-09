@@ -1,0 +1,135 @@
+header {
+  background-color: #07222B;
+  height: 60px;
+}
+
+header .logo {
+  float: left;
+  margin: 15px;
+  font-size: 20px;
+}
+
+header a {
+  color: #8197A0;
+  text-decoration: none;
+  margin: 10px;
+}
+
+header a:hover {
+  color: #2C7281;
+}
+
+.navbar {
+  float: right;
+}
+
+.display-message {
+  background-color: #2C7281;
+  color: white;
+  padding-left: 10px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.fa-times {
+  float: right;
+  margin: 17px 10px 10px 10px;
+}
+
+.fa-trash {
+  color: red;
+}
+
+.fa-edit {
+  color: #2C7281;
+}
+
+.card-header {
+  background-color: #2C7281;
+  color: white;
+}
+
+.display_products {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no_products {
+  background-color: #2C7281;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 50px;
+  color: white;
+  line-height: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+thead {
+  background-color: #2C7281;
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  background-color: lightgray;
+  width: 700px;
+  height: 700px;
+  padding: 100px 10px 50px 10px;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .add-btn {
+  background-color: #2C7281;
+  color: white;
+}
+
+.update-card {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2C7281;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.update-card .update-card-header {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  width: 100px;
+  height: 100px;
+}
+
+.update-card .btn {
+  border-color: transparent;
+}
+
+.update-card .update-btn {
+  float: left;
+  width: 50%;
+  background-color: #07222B;
+  color: white;
+}
+
+.update-card .cancel-btn {
+  float: right;
+  width: 50%;
+  background-color: red;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
