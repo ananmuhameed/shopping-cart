@@ -47,7 +47,7 @@
                     <td><?php echo $row['price'] ?></td>
                     <td><img src="images/<?php echo $row['image'] ?>" alt=<?php echo $row['name'] ?> width="100" height="100"></td>
                     <td>
-                        <a href="delete.php? delete_id=<?php echo $row['id'] ?>" onclick="return confirm('Are you sure you want to delete this products?');"><i class="fas fa-trash"></i></a>
+                        <a href="delete.php? table=products delete_id=<?php echo $row['id'] ?>" onclick="return confirm('Are you sure you want to delete this products?');"><i class="fas fa-trash"></i></a>
                         <a href="update.php? update_id=<?php echo $row['id'] ?>"><i class="fas fa-edit"></i></a>
                     </td>
                 </tr>

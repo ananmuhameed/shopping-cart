@@ -81,7 +81,7 @@ if(isset($_POST['update-btn'])){
                 <!-- Update button -->
                 <div class="input-group mt-3">
                     <input type="submit" name="update-btn" class="update-btn btn btn-light" value="Update Product">
-                    <input type="reset" name="cancel-btn" class="cancel-btn btn btn-light" value="Cancel">
+                    <input type="reset" name="cancel-btn" class="cancel-btn btn btn-light" value="Cancel" >
                 </div>
             </form>
         </div>

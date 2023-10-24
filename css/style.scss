@@ -15,12 +15,18 @@ height: 60px;
     a:hover{
         color: #2C7281;
     }
+    .navbar {
+        float: right;
+        }
 }
+.container {
+    background-color: lightgray;
+    width: 900px;
+    height: 1000px;
+    // padding: 100px 20px 50px 20px;
+    }
 
 
-.navbar {
-float: right;
-}
 
 .display-message {
 background-color: #2C7281;
@@ -28,6 +34,9 @@ color: white;
 padding-left: 10px;
 height: 50px;
 line-height: 50px;
+width: 700px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .fa-times {
@@ -43,10 +52,7 @@ color: red;
 color: #2C7281;
 }
 
-.card-header {
-background-color: #2C7281;
-color: white;
-}
+
 
 .display_products {
 margin-left: auto;
@@ -64,37 +70,36 @@ color: white;
 line-height: 50px;
 }
 
-table {
+.display_products{
 border-collapse: collapse;
-width: 600px;
-}
-
-td,
-th {
-border: 1px solid black;
-text-align: center;
-}
-
-thead {
-background-color: #2C7281;
-color: white;
-font-size: 20px;
-}
-
-.container {
-background-color: lightgray;
 width: 700px;
-height: 700px;
-padding: 100px 10px 50px 10px;
+
+    td,
+    th {
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    thead {
+        background-color: #2C7281;
+        color: white;
+        font-size: 20px;
+    }
 }
+
 
 .card {
 margin-left: auto;
 margin-right: auto;
-.add-btn{
-    background-color: #2C7281;
-    color: white;
-}
+width: 700px;
+    .add-btn{
+        background-color: #2C7281;
+        color: white;
+    }
+    .card-header {
+        background-color: #2C7281;
+        color: white;
+        }
 }
 
 .update-card {
@@ -103,6 +108,7 @@ margin-right: auto;
 background-color: #2C7281;
 border-radius: 10px;
 padding: 15px;
+width: 700px;
 }
 
 .update-card .update-card-header {
@@ -130,4 +136,95 @@ width: 50%;
 background-color: red;
 color: white;
 }
+
+// /////////////////////
+//    Shopping page
+// /////////////////////
+.products{
+    text-align: center;
+    
+    h1{
+        color: #07222B;
+        margin-bottom: 30px;
+        
+    }
+    .product{
+        height: 300px;
+        width: 270px;
+        background-color: white;
+        margin: 5px;
+        display: inline-block;
+        border-radius: 3px;
+        .product-header{
+            img{
+                width: 130px;
+                height: 130px;
+                margin: 10px;
+            }
+        }
+        h3{
+            text-transform: uppercase;
+        }
+        .cart-btn{
+            margin-top: 20px;
+            background-color: #07222B;
+            color: white;
+            border: transparent;
+            border-radius: 5px;
+            width: 100px;
+            height: 33px;
+        }
+        .cart-btn:hover{
+            color: #2C7281;
+        }
+    }
+}
+
+// /////////////////////
+//    Cart page
+// /////////////////////
+.cart{
+    text-align: center;
+    h1{
+        color: #07222B;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        thead{
+            background-color: #2C7281;
+            color: white;
+            font-size: 20px;
+            padding: 100px;
+        }
+        td,th {
+        border: 2px solid black;
+        text-align: center;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    }
+    .table-bottom{
+        background-color: #07222B;
+        margin: 20px;
+        display: flex;
+        color: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        a:first-of-type{
+            text-decoration: none;
+            color: white;
+            margin:5px 70px 5px 20px;
+        }
+        a:last-of-type{
+            text-decoration: none;
+            color: white;
+            margin:5px 20px 5px 70px;
+        }
+    }
+}
+
 /*# sourceMappingURL=style.css.map */
